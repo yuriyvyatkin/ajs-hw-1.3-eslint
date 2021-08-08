@@ -1,0 +1,36 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuriyvyatkin/npm-package.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Yuriy Vyatkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuriyvyatkin/npm-package/issues"
+  },
+  "homepage": "https://github.com/yuriyvyatkin/npm-package#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  },
+  "dependencies": {
+    "core-js": "^3.14.0"
+  }
+}
